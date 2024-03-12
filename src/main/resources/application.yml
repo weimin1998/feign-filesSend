@@ -1,0 +1,10 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: app2-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
